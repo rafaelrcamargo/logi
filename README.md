@@ -2,16 +2,19 @@
 
 A modern, cool and nice looking logger for better DX on your CLI apps.
 
-
 <div align="center">
     <img src="./assets/logi.png" alt="Logi example" width="400px" height="200px"/>
 </div>
+
+<br/>
 
 ---
 
 > **Note**: This library is a WIP used in some of my own projects. It was created to be easy and portable.
 
 ---
+
+<br/>
 
 ## Why?
 
@@ -27,7 +30,6 @@ It uses a pattern of `hour:minute:second | icon type | message`. The icon is a e
 
 <details>
 <summary>For the user:</summary>
-<br/>
 
 The user output is designed to be easy to read. It means it's easy to recognize the type of log and it's easy to read the message.
 
@@ -47,7 +49,6 @@ Example:
 
 <details>
 <summary>For the developer:</summary>
-<br/>
 
 The developer API was designed to be familiar and easy to use. It means it's really close to the `std` Rust logger.
 

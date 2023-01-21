@@ -9,7 +9,7 @@ license = "Apache-2.0"
 name = "logi"
 readme = "README.md"
 repository = "https://github.com/rafaelrcamargo/logi"
-version = "0.0.5"
+version = "0.0.7"
 
 [dependencies]
 chrono = "0.4.19"
