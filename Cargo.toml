@@ -3,13 +3,13 @@ authors = ["rafaelrcamargo"]
 categories = ["command-line-interface"]
 description = "A modern, cool and nice looking logger for better DX on your CLI apps."
 edition = "2021"
-homepage = "https://github.com/rafaelrcamargo/quix/tree/main/libs/logi"
+homepage = "https://github.com/rafaelrcamargo/logi"
 keywords = ["cli", "log", "logger", "logging", "DX"]
 license = "Apache-2.0"
 name = "logi"
 readme = "README.md"
-repository = "https://github.com/rafaelrcamargo/quix/tree/main/libs/logi"
-version = "0.0.2"
+repository = "https://github.com/rafaelrcamargo/logi"
+version = "0.0.4"
 
 [dependencies]
 chrono = "0.4.19"

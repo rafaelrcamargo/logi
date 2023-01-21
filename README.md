@@ -4,7 +4,7 @@ A modern, cool and nice looking logger for better DX on your CLI apps.
 > **Info**: This library is a WIP used in some of my own projects. It was created to be easy and portable.
 
 <div align="center">
-    <img src="https://github.com/rafaelrcamargo/logi/blob/main/assets/logi.png" alt="Logi example" width="400px" height="200px"/>
+    <img src="./assets/logi.png" alt="Logi example" width="400px" height="200px"/>
 </div>
 
 ## Why?
@@ -50,3 +50,23 @@ warn!("Warn message.");             // 00:00:00 | 💡 WARN | Warn message.
 error!("Error message.");           // 00:00:00 | 💥 F#CK | Error message.
 custom!("🧭 CSTM", "Custom one.");  // 20:39:24 | 🧭 CSTM | Custom message.
 ```
+
+## Usage
+
+Add this to your `Cargo.toml`:
+
+```toml
+[dependencies]
+logi = "x.x.x" # Just replace `x.x.x` with the latest release.
+```
+
+And this to your main file:
+
+```rust
+#[macro_use]
+extern crate logi;
+```
+
+## License
+
+This project is licensed under the Apache-2.0 license. See the [LICENSE](https://www.apache.org/licenses/LICENSE-2.0.txt) file for more details.
