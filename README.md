@@ -4,7 +4,7 @@ A modern, cool and nice looking logger for better DX on your CLI apps.
 > **Info**: This library is a WIP used in some of my own projects. It was created to be easy and portable.
 
 <div align="center">
-    <img src="./assets/logi.png" alt="Logi example" width="400px" height="200px"/>
+    <img src="https://github.com/rafaelrcamargo/logi/blob/main/assets/logi.png" alt="Logi example" width="400px" height="200px"/>
 </div>
 
 ## Why?
