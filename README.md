@@ -1,11 +1,17 @@
 # Logi - A less boring logger
 
 A modern, cool and nice looking logger for better DX on your CLI apps.
-> **Info**: This library is a WIP used in some of my own projects. It was created to be easy and portable.
+
 
 <div align="center">
     <img src="./assets/logi.png" alt="Logi example" width="400px" height="200px"/>
 </div>
+
+---
+
+> **Note**: This library is a WIP used in some of my own projects. It was created to be easy and portable.
+
+---
 
 ## Why?
 
@@ -19,7 +25,9 @@ This library was created to solve these problems. It's easy to use and it's easy
 
 It uses a pattern of `hour:minute:second | icon type | message`. The icon is a emoji* that represents the type of log. The type is a 4-letter colored word that represents the type of log. And the message is the final log message colored to match the type.
 
-### For the user
+<details>
+<summary>For the user:</summary>
+<br/>
 
 The user output is designed to be easy to read. It means it's easy to recognize the type of log and it's easy to read the message.
 
@@ -35,7 +43,11 @@ Example:
 14:58:22 | 🧭 CSTM | Custom message.
 ```
 
-### For the developer
+</details>
+
+<details>
+<summary>For the developer:</summary>
+<br/>
 
 The developer API was designed to be familiar and easy to use. It means it's really close to the `std` Rust logger.
 
@@ -50,6 +62,8 @@ warn!("Warn message.");             // 00:00:00 | 💡 WARN | Warn message.
 error!("Error message.");           // 00:00:00 | 💥 F#CK | Error message.
 custom!("🧭 CSTM", "Custom one.");  // 20:39:24 | 🧭 CSTM | Custom message.
 ```
+
+</details>
 
 ## Usage
 
