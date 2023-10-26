@@ -10,7 +10,8 @@ A modern, cool and nice looking logger for better DX on your CLI apps.
 
 ---
 
-> **Note**: This library is a WIP used in some of my own projects. It was created to be easy and portable.
+> [!NOTE]
+> This library is a WIP. I do use this in some of my own projects so `main` should be stable.
 
 ---
 
